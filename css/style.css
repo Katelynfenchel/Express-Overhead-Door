@@ -3,7 +3,7 @@
 }
 body {
     margin-left: 3px;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
@@ -14,30 +14,53 @@ body {
 h1 {
     letter-spacing: 1px;
     text-transform: uppercase;
-    font: 40px 'Droid Serif', serif;
+    font-size: 40px 
     text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 h2,
 .services {
     letter-spacing: 1px;
     text-transform: uppercase;
-    font: 20px 'Droid Serif', serif;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
     text-align: center;
 }
 h3 {
     display: block;
-    font: 15px 'Droid Serif', serif;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
 }
 ul {
-    font: 25px 'Droid Serif', serif;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
     text-align: center;
 }
 footer {
     margin-left: 2px;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lato', sans-serif;
 }
+
+footer .information{
+    margin-left: 3px;
+}
+
+footer #about,
+footer #address,
+footer #phone{
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+#address, #phone{
+        margin-top: 4px;
+}
+
 p {
-    font: 10px 'Droid Serif', serif;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
 }
 /* Next & previous buttons */
 
@@ -88,7 +111,9 @@ body .slideshow-container a.next {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font: 12px 'Droid Serif', serif;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 .topnav a:hover {
     background: #eee;
@@ -128,12 +153,14 @@ body .slideshow-container a.next {
 .services {
     margin-bottom: 3px;
     text-transform: uppercase;
-    font: 25px 'Droid Serif', serif;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
     text-align: left;
 }
 .list {
     text-align: center;
-    font: 15px 'Droid Serif', serif;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
 }
 .mySlides {
     display: none
@@ -170,11 +197,11 @@ body .slideshow-container a.next {
 /* The dots/bullets/indicators */
 
 .dot {
-    cursor: pointer;
-    height: 13px;
-    width: 13px;
-    margin: 0 2px;
-    background-color: #bbb;
+    // cursor: pointer;
+    // height: 13px;
+    // width: 13px;
+    // margin: 0 2px;
+    // background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
@@ -210,9 +237,9 @@ body .slideshow-container a.next {
 #benefits p,
 .stuff p,
 .services-description {
-    font-size: 15px;
+    font-size: 10px;
     text-transform: none;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
 }
 #benefits img {
@@ -230,7 +257,7 @@ body .slideshow-container a.next {
 }
 .benefit-header,
 .stuff h3 {
-    font-size: 2rem;
+    font-size: 15px;
     display: block;
     width: 100%;
     text-align: left;
