@@ -5,8 +5,11 @@ body {
     margin-left: 3px;
     font-family: 'Lato', sans-serif;
     letter-spacing: 1px;
-    text-transform: uppercase;
+   
 }
+
+
+
 .row {
     margin-right: 0;
     margin-left: 0;
@@ -35,27 +38,6 @@ ul {
     font-size: 25px;
     font-family: 'Lato', sans-serif;
     text-align: center;
-}
-footer {
-    margin-left: 2px;
-    font-family: 'Lato', sans-serif;
-}
-
-footer .information{
-    margin-left: 3px;
-}
-
-footer #about,
-footer #address,
-footer #phone{
-    font-size: 10px;
-    font-family: 'Lato', sans-serif;
-
-}
-
-
-#address, #phone{
-        margin-top: 4px;
 }
 
 p {
@@ -141,6 +123,27 @@ body .slideshow-container a.next {
     width: 245px;
     float: left;
     padding: 7px 0px 0 10px;
+}
+
+a .email{
+    color: black;
+}
+
+div .col-header{
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    margin-top: 7px;
+    float: right;
+    padding: 7px 0px 0 10px;
+    color: black;
+}
+
+.phoneNumber, .email{
+    text-align: right;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+
 }
 .topnav .icon {
     display: none;
